@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bokor&family=Lilita+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@400;700&family=Spicy+Rice&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+html {
+    font-size: 10px;}
+  
+body {
+   height: 100vh;
+    background: 
+    linear-gradient(0deg, #000 3.47%, rgba(102, 102, 102, 0.00) 69.86%),
+    url('img/eminem2.jpg');
+   background-repeat: no-repeat;
+   font-family: "Montserrat Alternates", serif;
+   font-style: normal;
+}
+
+.header {
+    width: 100%;
+    padding: 17.2rem 0 4.5rem;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-menu {
+    width: 65%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.menu-conteiner-1 {
+    align-items: center;
+    gap: 11.5rem;
+}
+.menu-text{
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 300;
+      display: inline-block;
+      transition: color 200ms;
+}
+li{
+    list-style-type: none;
+    padding: 0 0 1.6rem;
+}
+li:hover {
+    border-bottom: .2rem solid #DDFF00;
+}
+
+.menu-text::first-letter{
+    font-weight: 600;
+}
+
+.menu-text:hover {
+    color: #DDFF00;
+    cursor: pointer;
+}
+
+.menu-conteiner-2 {
+    align-items: center;
+    gap: 6rem;
+}
+
